@@ -1,0 +1,23 @@
+/* Font size */
+$font__name: "Roboto", Arial, sans-serif;
+
+/* Colors */
+
+/* Mixins */
+@mixin text-overflow($lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+/* Media */
+$mediaXxl: "(max-width: 1599.98px)";
+$mediaXl: "(max-width: 1199.98px)";
+$mediaLg: "(max-width: 991.98px)";
+$mediaMd: "(max-width: 767.98px)";
+$mediaSm: "(max-width: 575.98px)";
+$media475: "(max-width: 475.98px)";
+$media375: "(max-width: 375.98px)";
+$media320: "(max-width: 320.98px)";

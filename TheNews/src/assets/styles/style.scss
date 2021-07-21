@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+@import "~bootstrap/scss/bootstrap-grid";
+@import "./inc/global/fonts";
+@import "./inc/global/reset";
+@import "./inc/global/custom";
+
+/* UI */
+@import "./inc/ui/button";
+@import "./inc/ui/card";
+@import "./inc/ui/form";
+
+/* Media */
+@import "./inc/media/1600";
+@import "./inc/media/1199";
+@import "./inc/media/992";
+@import "./inc/media/768";
+@import "./inc/media/576";
+@import "./inc/media/475";
+@import "./inc/media/375";
+@import "./inc/media/320";
+
+/* layouts */
+@import "./inc/layouts/header";
+@import "./inc/layouts/footer";
+
+/* pages */
+@import "./inc/pages/index";
