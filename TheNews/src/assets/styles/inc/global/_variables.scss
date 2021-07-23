@@ -2,6 +2,12 @@
 $font__name: "Roboto", Arial, sans-serif;
 
 /* Colors */
+$colorBg: #f8f8f8;
+$colorBgDark: #eef1f6;
+$colorPurple: #7c61bd;
+$colorRed: #f73434;
+$colorText: #2b2b2b;
+$colorTextFade: #2b2b2bcf;
 
 /* Mixins */
 @mixin text-overflow($lines) {

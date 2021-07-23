@@ -1,0 +1,62 @@
+@import "../global/variables";
+
+input,
+select,
+textarea,
+button {
+	font-family: $font__name;
+}
+
+.form-field {
+
+	&:not(._last) {
+		margin-bottom: 15px;
+	}
+
+	.label {
+
+	}
+
+	.input-group {
+		border: 1px solid #ced4da;
+		border-radius: 6px;
+		color: $colorText;
+		overflow: hidden;
+
+		.group-prepend {
+			background-color: #e9ecef;
+			font-size: 14px;
+			min-width: 38px;
+			padding: 0 10px;
+
+			&._left {
+				border-right: 1px solid #ced4da;
+			}
+
+			&._right {
+				border-left: 1px solid #ced4da;
+			}
+		}
+
+	}
+
+	.input {
+		color: inherit;
+		font-size: 14px;
+		padding: 9px 15px;
+
+		&:focus {
+			border-color: #000;
+		}
+	}
+
+	.thumb {
+		font-size: 12px;
+	}
+
+	.error {
+		color: red;
+		font-size: 12px;
+	}
+}
+

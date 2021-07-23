@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from "react"
 
+
+//хук для улучшения производительности, хук предотвращает запуск функции, если она уже запускалась недавно.
+// Троттлинг также обеспечивает регулярность выполнение функции с заданной периодичностью.
+
 export const useThrottle = (value, timeout) => {
 	const [state, setState] = useState(value)
 	const lastRan = useRef(Date.now())

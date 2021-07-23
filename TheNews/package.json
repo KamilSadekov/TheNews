@@ -1,12 +1,14 @@
 {
-	"name": "react-app-template",
+	"name": "news",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
 		"@craco/craco": "^6.1.2",
 		"axios": "^0.21.1",
+		"babel-eslint": "^10.1.0",
 		"bootstrap": "^5.0.2",
 		"classnames": "^2.3.1",
+		"eslint-config-react-app": "^6.0.0",
 		"node-sass": "^5.0.0",
 		"pluralize-ru": "^1.0.1",
 		"prop-types": "^15.7.2",

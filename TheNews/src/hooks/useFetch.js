@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { apiGet } from "../api"
 import { errorHandler } from "../utils/errorHandler"
 
+
+// простой хук для гет-запроса
 export const useFetch = ({
 	url = null,
 	defaultValue = null,

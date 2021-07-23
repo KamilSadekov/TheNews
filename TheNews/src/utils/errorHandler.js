@@ -1,5 +1,5 @@
-import { appLogout } from "../redux/actions/app"
-import { store } from "../redux/store"
+import {appLogout} from "../store/app/actions"
+import { store } from "../store"
 
 export const errorHandler = ({ errorText, viewAlert = true }) => {
 	const IS_NOT_AUTH = errorText.match(/401/)
