@@ -1,0 +1,43 @@
+//отдыльные файлы стилей под каждый компонент , это важно !!!
+#news-item{
+  .about-autor{
+    display: none;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    left: 10%;
+    z-index: 2;
+    top: -6px;
+    &:before{
+      content: "";
+      position: absolute;
+      left: -5px;
+      background: #fff;
+      width: 10px;
+      height: 10px;
+      transform: rotate(40deg);
+    }
+
+    .subscribes{
+      color: rgba(0,0,0,0.5);
+      font-size: 12px;
+    }
+    .autor-footer{
+      padding-top: 5px;
+      border-top: 1px solid rgba(0,0,0,0.5);
+      margin-top: 5px;
+    }
+  }
+  .autor:hover + .about-autor{
+      display: block;
+  }
+  .about-autor:hover{
+    display: block;
+  }
+  .news-description{
+    color: #757575;
+    font-size: 14px;
+  }
+}

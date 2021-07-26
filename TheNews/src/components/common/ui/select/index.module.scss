@@ -1,0 +1,32 @@
+@import "../../../../assets/styles/inc/global/variables";
+
+.field {
+	margin-bottom: 15px;
+}
+
+.label {
+
+}
+
+.select {
+	background: url("../../../../assets/images/icons/arrowDown.svg") calc(100% - 10px) 50% no-repeat;
+	background-size: 12px auto;
+	border: 1px solid #ced4da;
+	border-radius: 6px;
+	color: $colorText;
+	cursor: pointer;
+	padding: 8px 30px 8px 15px;
+
+	&:focus {
+		border-color: #000;
+	}
+}
+
+.thumb {
+	font-size: 12px;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+}

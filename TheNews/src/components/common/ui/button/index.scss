@@ -10,56 +10,61 @@
 	line-height: 1.5;
 	padding: 7px 28px;
 	transition: all .3s;
-	
+
 	&:disabled {
 		cursor: default !important;
 	}
-	
+
 	&-size-xs {
 		font-size: 11px;
 		padding: 1px 6px;
 	}
-	
+
 	&-size-sm {
 		font-size: 12px;
 	}
-	
+
 	&-size-lg {
 		font-size: 18px;
 	}
-	
+
 	&-size-xl {
 		font-size: 18px;
 		padding: 13px 40px;
 	}
-	
+
 	&-default {
 		background: #7366ff0f;
 		border: 1px solid #7366ff4f;
 		color: $colorText;
-		
+
 		&:hover {
 			background: #7366ff1a;
 			border: 1px solid #7366ff1a;
 		}
 	}
-	
+
+	&-green{
+		background: #17891A;
+		color: #fff;
+	}
+
 	&-primary {
 		background: $colorPurple;
 		border: 1px solid $colorPurple;
 		color: #fff;
-		
+
 		&:hover {
 			background: darken($colorPurple, 8);
 			border: 1px solid darken($colorPurple, 8);
 		}
 	}
-	
+
 	&-danger {
 		background: $colorRed;
 		border: 1px solid $colorRed;
 		color: #fff;
-		
+
 		&:hover {
 			background: darken($colorRed, 8);
 			border: 1px solid darken($colorRed, 8);

@@ -2,7 +2,8 @@ import { LoginPage } from "../components/pages/auth/login"
 import { RegistrationPage } from "../components/pages/auth/registration"
 import { AboutScreen } from "../components/pages/main/about"
 import { Page404 } from "../components/pages/main/error/404"
-import { MainScreen } from "../components/pages/main/home"
+import { MainScreen } from "../components/pages/main/news/list"
+import {NewsPage} from "../components/pages/main/news/item";
 
 
 // здесь импортируются все страницы
@@ -10,6 +11,10 @@ export const mainRoutes = [
 	{
 		path: "/",
 		component: MainScreen,
+	},
+	{
+		path: "/news",
+		component: NewsPage,
 	},
 	{
 		path: "/about",

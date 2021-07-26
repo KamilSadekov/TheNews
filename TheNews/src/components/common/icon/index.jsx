@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { iconList } from "./iconList"
 
 export const Icon = ({ size = 16, color = "#000", name, ...props }) => {
-	if (iconList[name]) return null
+	if (!iconList[name]) return null
 
 	const { viewBox, data } = iconList[name]
 

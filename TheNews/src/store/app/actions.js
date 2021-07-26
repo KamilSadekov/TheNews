@@ -1,4 +1,4 @@
-import { LOGIN, LOGOUT, UPDATE_LOADING_STATUS } from "./types"
+import { LOGIN, LOGOUT, UPDATE_LOADING_STATUS, FILTER_ATTR_RESET, FILTER_UPDATE_ATTR } from "./types"
 
 export const appLogin = authToken => {
 	return dispatch => {

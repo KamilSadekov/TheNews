@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-import { LOGIN, LOGOUT, UPDATE_LOADING_STATUS } from "./types"
+import { LOGIN, LOGOUT, UPDATE_LOADING_STATUS} from "./types"
 
 const initialState = {
 	authToken: null,
@@ -21,3 +21,4 @@ export const appReducer = (state = initialState, action) => {
 			return state
 	}
 }
+
